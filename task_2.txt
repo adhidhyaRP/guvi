@@ -1,0 +1,27 @@
+Window Object  
+
+Explain that the window object is the global object that contains all the properties and methods available to the current window or frame.
+
+Give some examples of the properties and methods of the window object, such as innerWidth, innerHeight, location, alert, setTimeout, etc.
+
+Mention that the window object also has a document property that refers to the document object of the current web page.
+
+
+Document Object
+
+
+
+Explain that the document object is a property of the window object that represents the DOM (document object model) of the current web page.
+
+Give some examples of the properties and methods of the document object, such as title, URL, cookie, getElementById, createElement, appendChild, etc.
+
+Mention that the document object can be accessed with window.document or just document.
+
+Differences between Window and Document Objects
+
+
+Summarize the main differences between the window and document objects in terms of their scope, functionality, and relationship.
+
+Provide some code snippets to illustrate the differences and how to access and manipulate the window and document objects.
+
+Highlight some common pitfalls or errors that may arise from confusing the window and document objects.

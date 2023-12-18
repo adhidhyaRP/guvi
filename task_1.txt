@@ -1,0 +1,42 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+
+HTTP1.1 has been around since 19971. When you make a request to a server for a webpage, the server responds with the resources for that page. For example, if you ask for a page called geeksforgeeks.html, the server sends you that page1.One important thing to note about HTTP1.1 is that it uses a system called ‘keep-alive’, which means the connection between your computer (the client) and the server stays open for a while, allowing several requests and responses to be merged in a single connection1.
+
+However, HTTP1.1 has a few drawbacks:
+
+It transfers all the requests and responses in plain text1.
+It suffers from a problem called ‘head of line blocking’, where the connection is blocked until the response is received1.
+All the information related to the header file is repeated in every request1.
+
+
+HTTP2 was created in 2015 to address some of the issues with HTTP1.11. Here are some key differences:
+
+Binary, not Textual: HTTP2 is binary, which means it converts all the messages into a format that computers find easier to deal with12.
+Multiplexing: HTTP2 is fully multiplexed. This means it can use one connection for multiple requests, which helps avoid the ‘head of line blocking’ problem of HTTP1.112.
+Header Compression: HTTP2 uses a system called HPACK to split data from the header and compress it, which helps reduce the amount of data being sent1.
+Server Push: HTTP2 allows servers to ‘push’ responses into the client’s cache without the client having to request them1.
+Conclusion
+In conclusion, HTTP2 is a more advanced version of HTTP1. It’s faster and more efficient, thanks to improvements like binary formatting, multiplexing, header compression, and server push. However, both versions are still in use today, and understanding the differences between them can help us better understand how the internet works.
+
+
+
+Write a blog about objects and its internal representation in Javascript
+codekata practice
+
+
+Understanding Objects in JavaScript
+
+
+ What is an Object?
+
+In JavaScript, an object is a collection of properties¹². Each property is a pair of a name (or key) and a value. The value can be a function, in which case the property is known as a method.
+
+
+Accessing Object Properties
+
+Internally, most objects store all their properties in a single block of memory. Each block of memory has a pointer to a map, which describes the object's structure. Named properties that don't fit in an object are usually stored in an overflow array. Numbered properties are stored separately, usually in a contiguous array.
+
+
+
