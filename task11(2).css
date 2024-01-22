@@ -1,0 +1,131 @@
+*{
+    margin: 12px;
+}
+
+.container{
+    border: 2px solid black;
+    height: 95vh;
+    width: 95vw;
+    background :linear-gradient(to right,rgb(157, 232, 157),rgb(239, 241, 93),orange,rgb(235, 39, 39));
+
+}
+
+.search{
+    height: 7vh;
+    width: 50vw;
+    border: 2px solid black;
+    position: fixed;
+    left: 450px;
+    top: 70px;
+    background-color: rgb(221, 243, 255);
+}
+
+.event1,.event2,.event3,.event4,.event5,.event6,.event7,.event8{
+    height: 25vh;
+    width: 20vw;
+    border: 2px solid black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    background-color: rgb(221, 243, 255);
+    border-radius: 50px;
+
+    
+   
+    padding: 10px;
+
+    
+}
+
+.title{
+    font-size: 1.5em;
+    font-weight: bolder;
+
+    letter-spacing: 3px;
+    position: absolute;
+    left: 140px;
+}
+.inssearch{
+    font-size: 1.5em;
+    font-weight: bolder;
+
+    letter-spacing: 3px;
+    position: absolute;
+    left: 340px;
+    top: 10px;
+
+}
+.images2,.images3,.images4,.images5,.images6,.images7,.images8{
+    position: relative;
+    top: 30px;
+    right: 15px;
+
+   
+}
+.imagess{
+    position: fixed;
+    top: 320px;
+    left: 90px;
+}
+.date,.seats,.button1{
+    position: absolute;
+    left: 190px;
+    
+    font-size: larger;
+}
+.date{
+    bottom: 140px;
+}
+.seats{
+    bottom: 90px;
+}
+.button1{
+    width: 150px;
+    height: 50px;
+    background-color: aquamarine;
+    bottom:  30px;
+    border-radius: 30px;
+}
+.event1{
+    position:fixed;
+    left: 70px;
+    top: 250px;
+}
+.event2{
+    position:absolute;
+    top: 250px;
+    left: 500px;
+}
+
+.event3{
+    position:absolute;
+    top: 250px;
+    left: 930px;
+}
+
+.event4{
+    position:absolute;
+    top: 250px;
+    left: 1360px;
+}
+
+.event5{
+    position:absolute;
+    left: 70px;
+    top: 550px;
+}
+.event6{
+    position:absolute;
+    top: 550px;
+    left: 500px;
+}
+.event7{
+    position:absolute;
+    top: 550px;
+    left: 930px;
+}
+
+.event8{
+    position:absolute;
+    top: 550px;
+    left: 1360px;
+}

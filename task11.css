@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    background-color: rgb(221, 236, 210);
+
+}
+
+.head{
+    background-color: rgb(63, 75, 80);
+    width: 100vw;
+    height: 15vh;
+    color: white;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+}
+
+.body div{
+    background-color:rgb(47, 46, 50) ;
+    
+
+}
+.box{
+    width: 20vw;
+    height: 70vh;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 25px;
+}
+
+.searchbox{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 10px;
+    position: relative;
+    bottom: 600px;
+    left: 750px;
+}
+.website1,.website2,.website3{
+    width: 18vw;
+    height: 18vh;
+    border-radius: 25px;
+}
+.website1{
+    position: relative;
+    bottom: 500px;
+    left: 580px;
+}
+.website2{
+    position: relative;
+    bottom: 675px;
+    left: 980px;
+}
+.website3{
+    position: relative;
+    bottom: 850px;
+    left: 1380px;
+}
+.webbig{
+    width: 60vw;
+    height: 18vh;
+    border-radius: 25px;
+    position: relative;
+    bottom: 750px;
+    left: 600px;
+}
+
+.input{
+    width: 40vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: larger;
+    padding-left: 30px;
+    color: rgb(252, 252, 252);
+    letter-spacing: 4px;
+    background-color:rgb(47, 46, 50) 
+}
