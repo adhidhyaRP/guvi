@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(173, 172, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 70%;
+    min-height: 500px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.box button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(27, 29, 29);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box button:hover {
+    background-color: rgb(35, 37, 37);
+}
+
+@media screen and (max-width: 704px) {
+    .box {
+        width: 90%;
+    }
+}
+
+.register {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.register table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.register th, .register td {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.register th {
+    background-color: aquamarine;
+}
+
+.register .add {
+    padding: 20px 130px;
+}
